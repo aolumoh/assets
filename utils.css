@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+:root {
+  --background-dark: rgb(24, 23, 32);
+}
+
+body {
+  background-color: var(--background-dark);
+}
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.gap-5 { gap: 5px;  }
+.gap-10 { gap: 10px;  }
+.gap-15 { gap: 15px;  }
+.gap-20 { gap: 20px;  }
+
+.space-between{
+  justify-content: space-between;
+}
